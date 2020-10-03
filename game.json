@@ -470,10 +470,10 @@
       "variables": [],
       "behaviors": [
         {
+          "canGrabPlatforms": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
-          "canGrabPlatforms": false,
           "deceleration": 1500,
           "gravity": 1000,
           "ignoreDefaultControls": false,
@@ -3165,7 +3165,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.09
+        "zoomFactor": 0.826
       },
       "objectsGroups": [],
       "variables": [],
