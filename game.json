@@ -554,6 +554,42 @@
         "metadata": "",
         "name": "Sound/blood.ogg",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/Death-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/Death-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/Death-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/Death-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/Death-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/Death-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/Death-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/Death-4.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1706,6 +1742,194 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Death",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/Death-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/Death-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/Death-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/Death-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1790,6 +2014,10 @@
     },
     {
       "name": "WasJumping",
+      "value": "0"
+    },
+    {
+      "name": "death",
       "value": "0"
     }
   ],
@@ -3257,6 +3485,14 @@
                 "yes"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -3289,6 +3525,70 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Player"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "MettreXY"
               },
               "parameters": [
@@ -3309,6 +3609,18 @@
                 "Num_deaths",
                 "+",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -3535,6 +3847,18 @@
                 "PlatformerObject"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -3589,6 +3913,18 @@
               "parameters": [
                 "Player",
                 "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -4957,6 +5293,14 @@
                 "yes"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -4989,14 +5333,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MettreXY"
+                "value": "ChangeAnimation"
               },
               "parameters": [
                 "Player",
                 "=",
-                "Invis_spawn_flag.X()",
-                "=",
-                "Invis_spawn_flag.Y()"
+                "4"
               ],
               "subInstructions": []
             },
@@ -5006,8 +5348,8 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "Num_deaths",
-                "+",
+                "death",
+                "=",
                 "1"
               ],
               "subInstructions": []
@@ -5033,6 +5375,14 @@
                 "yes"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -5065,6 +5415,70 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Player"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "MettreXY"
               },
               "parameters": [
@@ -5085,6 +5499,18 @@
                 "Num_deaths",
                 "+",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -5311,6 +5737,18 @@
                 "PlatformerObject"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -5365,6 +5803,18 @@
               "parameters": [
                 "Player",
                 "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
