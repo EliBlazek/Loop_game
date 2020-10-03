@@ -3984,6 +3984,18 @@
                 "\"right\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -4027,6 +4039,18 @@
                 "Direction",
                 "=",
                 "\"left\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -5874,6 +5898,18 @@
                 "\"right\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -5917,6 +5953,18 @@
                 "Direction",
                 "=",
                 "\"left\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
