@@ -166,6 +166,33 @@
         "metadata": "",
         "name": "VT323_font.ttf",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/Idle-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art\\Placeholder_assets\\Idle-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Wall_tex1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art\\Wall_tex1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Wall_texture1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art\\Wall_texture1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -181,10 +208,10 @@
       "variables": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -197,6 +224,8 @@
       "variables": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGrabPlatforms": false,
           "deceleration": 1500,
@@ -206,17 +235,15 @@
           "jumpSustainTime": 0.2,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "roundCoordinates": true,
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "xGrabTolerance": 10,
           "yGrabOffset": 0
         }
       ],
       "animations": [
         {
-          "name": "",
+          "name": "Idle-1",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -225,7 +252,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Art\\Placeholder_assets\\Idle-1.png",
+                  "image": "Art\\Placeholder_assets\\Idle-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -241,20 +268,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15.303,
-                        "y": 4.09091
+                        "x": 23.7234,
+                        "y": 7.34043
                       },
                       {
-                        "x": 36.2121,
-                        "y": 3.18182
+                        "x": 31.5,
+                        "y": 10.125
                       },
                       {
-                        "x": 31.6667,
-                        "y": 36.8182
+                        "x": 30,
+                        "y": 35.875
                       },
                       {
-                        "x": 15.9091,
-                        "y": 36.2121
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
                       }
                     ]
                   ]
@@ -318,9 +353,9 @@
       "font": "VT323_font.ttf",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     }
   ],
@@ -421,7 +456,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.754
+        "zoomFactor": 0.226
       },
       "objectsGroups": [],
       "variables": [],
@@ -620,6 +655,36 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Box",
+          "width": 328,
+          "x": 1300,
+          "y": 484,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2187,
+          "layer": "",
+          "locked": false,
+          "name": "Wall_texture",
+          "width": 4401,
+          "x": -1397,
+          "y": -988,
+          "zOrder": -14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -671,6 +736,16 @@
               ]
             }
           ]
+        },
+        {
+          "height": 32,
+          "name": "Wall_texture",
+          "tags": "",
+          "texture": "Art\\Wall_texture1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
