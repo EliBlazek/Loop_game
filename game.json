@@ -846,8 +846,8 @@
           "locked": false,
           "name": "Podnadpis",
           "width": 0,
-          "x": 30,
-          "y": 92,
+          "x": 23,
+          "y": 109,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1114,7 +1114,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -1122,9 +1122,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.514
+        "zoomFactor": 0.994
       },
       "objectsGroups": [],
       "variables": [],
