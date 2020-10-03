@@ -7,14 +7,13 @@
     "revision": 0
   },
   "properties": {
-    "adMobAppId": "",
     "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
     "linuxExecutableFilename": "",
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "D:\\Dev\\Loop_game\\game.json",
+    "projectFile": "/Users/mikulasholy/Documents/GitHub/Loop_game/game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -33,6 +32,7 @@
     "loadingScreen": {
       "showGDevelopSplash": true
     },
+    "extensionProperties": [],
     "extensions": [
       {
         "name": "BuiltinObject"
@@ -439,6 +439,114 @@
         "name": "Art\\Bloody_Saw.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleRight-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleRight-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleRight-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleRight-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleRight-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleRight-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleRight-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleRight-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleRight-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleRight-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleRight-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleRight-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleLeft-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleLeft-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleLeft-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleLeft-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleLeft-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleLeft-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleLeft-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleLeft-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleLeft-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleLeft-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/IdleLeft-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/IdleLeft-6.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -470,9 +578,9 @@
       "variables": [],
       "behaviors": [
         {
-          "canGrabPlatforms": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGrabPlatforms": true,
           "acceleration": 1500,
           "deceleration": 1500,
           "gravity": 1000,
@@ -1045,12 +1153,232 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Art/Placeholder_assets/Idle-1-1-1.png",
+                  "image": "Art/Placeholder_assets/IdleRight-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/IdleRight-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/IdleRight-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/IdleRight-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/IdleRight-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/IdleRight-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1101,12 +1429,232 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Art/Placeholder_assets/WalkLeft-1.png",
+                  "image": "Art/Placeholder_assets/IdleLeft-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/IdleLeft-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/IdleLeft-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/IdleLeft-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/IdleLeft-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23.7234,
+                        "y": 7.34043
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 10.125
+                      },
+                      {
+                        "x": 30,
+                        "y": 35.875
+                      },
+                      {
+                        "x": 20.1923,
+                        "y": 36.25
+                      },
+                      {
+                        "x": 19.25,
+                        "y": 17.625
+                      },
+                      {
+                        "x": 23.0851,
+                        "y": 15.8511
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art/Placeholder_assets/IdleLeft-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1275,6 +1823,7 @@
           "layer": "",
           "locked": false,
           "name": "Wall_texture",
+          "persistentUuid": "830bd13e-476b-46d4-aab1-9b3f8e193acc",
           "width": 988,
           "x": -87,
           "y": -32,
@@ -1290,6 +1839,7 @@
           "layer": "",
           "locked": false,
           "name": "Game_title",
+          "persistentUuid": "c4eaa6f8-6e7e-4b73-b303-664ed94b7fb4",
           "width": 0,
           "x": 35,
           "y": 36,
@@ -1305,6 +1855,7 @@
           "layer": "",
           "locked": false,
           "name": "Podnadpis",
+          "persistentUuid": "cd9eaf43-5c25-4e7b-b01c-cfb9ad8895e8",
           "width": 0,
           "x": 23,
           "y": 109,
@@ -1320,6 +1871,7 @@
           "layer": "",
           "locked": false,
           "name": "Logo",
+          "persistentUuid": "2f4ed9c0-eb86-4dde-846d-22c8c68fad77",
           "width": 0,
           "x": 644,
           "y": 18,
@@ -1335,6 +1887,7 @@
           "layer": "",
           "locked": false,
           "name": "Menu_select",
+          "persistentUuid": "03a371f1-762b-40f4-a178-c56d7e7cfa10",
           "width": 0,
           "x": 87,
           "y": 247,
@@ -1532,6 +2085,11 @@
       ],
       "layers": [
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -1596,6 +2154,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "95d5faeb-f0c8-47df-aa8e-26226cbfc4d7",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1611,6 +2170,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "6b4360c3-bcbf-4a5a-a531-890d05f4de53",
           "width": 473,
           "x": 151,
           "y": 413,
@@ -1626,6 +2186,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "4a6f63e6-0f5d-4db6-8386-3fab8804d922",
           "width": 446,
           "x": 701,
           "y": 413,
@@ -1641,6 +2202,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "17c40814-2860-4625-8137-caf4e3ac360e",
           "width": 0,
           "x": 941,
           "y": 303,
@@ -1656,6 +2218,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "e5673c92-7c9b-4e5f-b937-519019f65818",
           "width": 198,
           "x": 606,
           "y": 221,
@@ -1671,6 +2234,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "8ba11278-4128-4afc-99e9-af55fda880f4",
           "width": 262,
           "x": 1087,
           "y": 196,
@@ -1686,6 +2250,7 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
+          "persistentUuid": "fd172e72-2323-4205-af47-08e90e52c222",
           "width": 0,
           "x": 1063,
           "y": 371,
@@ -1701,6 +2266,7 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
+          "persistentUuid": "5add7fdd-5284-4c8b-a025-8e2af4506613",
           "width": 0,
           "x": 687,
           "y": 179,
@@ -1716,6 +2282,7 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
+          "persistentUuid": "cd0be9e3-261f-4a44-9f1b-190410a1f776",
           "width": 0,
           "x": 1175,
           "y": 154,
@@ -1731,6 +2298,7 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
+          "persistentUuid": "8ec4a1dc-690b-4062-af4f-99893426e5e1",
           "width": 0,
           "x": 473,
           "y": 372,
@@ -1746,6 +2314,7 @@
           "layer": "",
           "locked": false,
           "name": "colision_detection",
+          "persistentUuid": "8d5677e0-9464-4974-ab43-ad35d7b64ff5",
           "width": 3565,
           "x": -1220,
           "y": 711,
@@ -1761,6 +2330,7 @@
           "layer": "",
           "locked": false,
           "name": "Invis_spawn_flag",
+          "persistentUuid": "dd644b5b-74f6-43f2-a7a2-716e56b88531",
           "width": 39,
           "x": 191,
           "y": 317,
@@ -1776,6 +2346,7 @@
           "layer": "UI",
           "locked": false,
           "name": "Score_counter",
+          "persistentUuid": "716f00b0-b086-482c-a14f-03aaca0a3664",
           "width": 185,
           "x": 10,
           "y": 8,
@@ -1791,6 +2362,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "aafc1c28-1149-4d7d-9507-472d5e411290",
           "width": 328,
           "x": 1280,
           "y": 480,
@@ -1806,6 +2378,7 @@
           "layer": "",
           "locked": false,
           "name": "Wall_texture",
+          "persistentUuid": "3083f2c8-fff6-4156-833b-a73dc6feb63f",
           "width": 4401,
           "x": -1397,
           "y": -988,
@@ -1821,6 +2394,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "367deeef-bfe4-46ac-8ff7-eac8033438ed",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1836,6 +2410,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "45ab056a-653e-41c4-b7c8-15d08dc80fa9",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1851,6 +2426,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "53d90313-7f40-4fbe-8a4c-bca94bb96e13",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1866,6 +2442,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "85e768b4-557b-4525-a35f-d30dd53bc883",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1881,6 +2458,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "57122ac2-2b35-4a67-bd4f-55785a950a03",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1896,6 +2474,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "4d07b0c2-9c93-4be0-8008-c88096833006",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1911,6 +2490,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "2eb03c73-1ce8-4168-baf9-33d9b8d3b846",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1926,6 +2506,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "5c6efbab-f71f-421d-853c-addab6d2f02c",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1941,6 +2522,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "561a7dfa-d538-4bbe-8d35-1e00b2a3f9d0",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1956,6 +2538,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "45909aa8-f612-40dd-a52b-e29152c367d0",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1971,6 +2554,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "6a1c39b5-0096-4bff-bf95-62943eb732ac",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1986,6 +2570,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "c08892fa-415a-4a1a-8ac2-081d1eed52b4",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -2001,6 +2586,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "65a19764-3411-4ae0-ba93-e85950cc6b46",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -2016,6 +2602,7 @@
           "layer": "",
           "locked": false,
           "name": "Exit_door",
+          "persistentUuid": "e5c150bb-37ef-4c92-819f-58301a99b6ab",
           "width": 168,
           "x": 1432,
           "y": 315,
@@ -2031,6 +2618,7 @@
           "layer": "",
           "locked": false,
           "name": "Console",
+          "persistentUuid": "191d7ebe-4a72-4dce-b0c3-a2296f090d78",
           "width": 32,
           "x": 1382,
           "y": 418,
@@ -2046,6 +2634,7 @@
           "layer": "",
           "locked": false,
           "name": "Console_sparks",
+          "persistentUuid": "b1bd1355-6945-4785-9c06-2723871f90ea",
           "width": 0,
           "x": 1399,
           "y": 429,
@@ -2061,6 +2650,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "e92e584f-a36c-494f-be39-302aa560f554",
           "width": 108,
           "x": 1696,
           "y": 64,
@@ -2076,6 +2666,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "dd5e8031-7f74-4bad-8912-ecb408f52a99",
           "width": 108,
           "x": 160,
           "y": 64,
@@ -2091,6 +2682,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "d36034d5-d092-472e-a6aa-5f2067d4161a",
           "width": 108,
           "x": 544,
           "y": 64,
@@ -2106,6 +2698,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "82262e15-8c70-4268-8b44-2fc60006de82",
           "width": 108,
           "x": 911,
           "y": 62,
@@ -2121,6 +2714,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "85d48cff-d59f-48e1-9ce2-cc2aa5603d99",
           "width": 108,
           "x": 911,
           "y": 62,
@@ -2136,6 +2730,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "cfe9f112-df46-43f1-b20e-b32ca3a20f54",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -2151,6 +2746,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "6c5d900c-cf82-42c6-a208-6e03765e2c9d",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -2166,6 +2762,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "53efb217-c40b-471f-94fc-3eb6a561135c",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -2181,6 +2778,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "1d290013-7181-40f8-91ce-abd0cd0af5b4",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -2196,6 +2794,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "5a970b14-3b6a-4c27-aed1-a9f3fba54445",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -2211,6 +2810,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "c3174fe9-83c2-4a33-ad70-105ea4783a55",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -3107,6 +3707,11 @@
       ],
       "layers": [
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -3124,6 +3729,11 @@
           "effects": []
         },
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "UI",
           "visibility": true,
           "cameras": [],
@@ -3177,6 +3787,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "aa5e8aaf-2db6-4c1b-9b66-5b53cc022b13",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3192,6 +3803,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "fc180fea-785c-48e6-8740-75b6e5418929",
           "width": 473,
           "x": 151,
           "y": 413,
@@ -3207,6 +3819,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "03c3a24d-d1bc-4e08-9be7-1cf21989e489",
           "width": 446,
           "x": 701,
           "y": 413,
@@ -3222,6 +3835,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "d00877ea-0c07-4766-bf79-f422cdffb325",
           "width": 0,
           "x": 941,
           "y": 303,
@@ -3237,6 +3851,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "e78da527-e54e-4c63-bacb-1915c1791518",
           "width": 198,
           "x": 606,
           "y": 221,
@@ -3252,6 +3867,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "74f7cbf8-7bd9-4348-8396-5b26c796823e",
           "width": 262,
           "x": 1087,
           "y": 196,
@@ -3267,6 +3883,7 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
+          "persistentUuid": "49740310-2f08-4257-a177-b794b90670df",
           "width": 0,
           "x": 1063,
           "y": 371,
@@ -3282,6 +3899,7 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
+          "persistentUuid": "d66f5db3-61e6-4625-a2ec-91ee41f138e4",
           "width": 0,
           "x": 687,
           "y": 179,
@@ -3297,6 +3915,7 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
+          "persistentUuid": "a32a8d00-7ce2-4d55-b044-0c387dd4e0df",
           "width": 0,
           "x": 1175,
           "y": 154,
@@ -3312,6 +3931,7 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
+          "persistentUuid": "93b68be0-cedc-4594-bc97-08d45c274bd5",
           "width": 0,
           "x": 473,
           "y": 372,
@@ -3327,6 +3947,7 @@
           "layer": "",
           "locked": false,
           "name": "colision_detection",
+          "persistentUuid": "fdc1030f-c1c9-4f77-9705-8eee87cb7bc5",
           "width": 3565,
           "x": -1220,
           "y": 711,
@@ -3342,6 +3963,7 @@
           "layer": "",
           "locked": false,
           "name": "Invis_spawn_flag",
+          "persistentUuid": "5253f29a-ce5f-4259-b823-6d86ede5aec7",
           "width": 39,
           "x": 191,
           "y": 317,
@@ -3357,6 +3979,7 @@
           "layer": "UI",
           "locked": false,
           "name": "Score_counter",
+          "persistentUuid": "c7b78e20-7a65-4a85-8b10-3a7bb551ef36",
           "width": 185,
           "x": 10,
           "y": 8,
@@ -3372,6 +3995,7 @@
           "layer": "",
           "locked": false,
           "name": "Box",
+          "persistentUuid": "2a40e9ba-fd36-49e6-a2f1-a29a22b9db07",
           "width": 328,
           "x": 1280,
           "y": 480,
@@ -3387,6 +4011,7 @@
           "layer": "",
           "locked": false,
           "name": "Wall_texture",
+          "persistentUuid": "bdd7be1f-fd8b-42cf-a438-415878800de4",
           "width": 4401,
           "x": -1397,
           "y": -988,
@@ -3402,6 +4027,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "e27297c1-5fa9-458e-9298-7923b01f9c5c",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3417,6 +4043,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "02ab935e-cbe2-4029-81b6-388596757cf4",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3432,6 +4059,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "2d248279-916f-46ca-b5a7-be32c772c22f",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3447,6 +4075,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "a880e7b1-da57-44cc-9146-7f9f6bbb5092",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3462,6 +4091,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "3154ab5f-a7bd-4bfd-996d-ce5734f7e7a5",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3477,6 +4107,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "5c3e1543-8d1f-466f-ac2c-2d05616641eb",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3492,6 +4123,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "fb6946ec-865c-4179-a123-0b0860b36ca5",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3507,6 +4139,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "0a734827-6364-4fd4-a3e7-467634958220",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3522,6 +4155,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "0d687bab-c106-44c9-8350-9a910d6f76d4",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3537,6 +4171,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "f1aa6494-2b49-4ce6-8bca-22d5247faa18",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3552,6 +4187,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "a754d56b-8a60-4840-b645-3028543f68a2",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3567,6 +4203,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "dc9502db-ae2e-4557-be78-866d8dc9d9a5",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3582,6 +4219,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "4fae3db6-dea7-4b26-ae61-8881a099d2d5",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3597,6 +4235,7 @@
           "layer": "",
           "locked": false,
           "name": "Exit_door",
+          "persistentUuid": "a97bb8d1-de46-4381-a17e-d0ccc25d3219",
           "width": 168,
           "x": 1432,
           "y": 315,
@@ -3612,6 +4251,7 @@
           "layer": "",
           "locked": false,
           "name": "Console",
+          "persistentUuid": "42bcb8d1-64f0-41c9-a629-6e2aadd48f45",
           "width": 32,
           "x": 1382,
           "y": 418,
@@ -3627,6 +4267,7 @@
           "layer": "",
           "locked": false,
           "name": "Console_sparks",
+          "persistentUuid": "4ddefd4e-b990-4ffc-91b4-4001d88965b2",
           "width": 0,
           "x": 1399,
           "y": 429,
@@ -3642,6 +4283,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "1b9c52a0-f710-4c2d-b3f5-a145298878bb",
           "width": 108,
           "x": 1696,
           "y": 64,
@@ -3657,6 +4299,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "7b129cc8-d9cf-40b5-87b2-c68440557650",
           "width": 108,
           "x": 160,
           "y": 64,
@@ -3672,6 +4315,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "29bdd64d-103c-483b-aac2-03e4d080e53e",
           "width": 108,
           "x": 544,
           "y": 64,
@@ -3687,6 +4331,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "d5071f56-930b-4a3d-a209-2b572c67b039",
           "width": 108,
           "x": 911,
           "y": 62,
@@ -3702,6 +4347,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "e5f28fa3-cc1a-4049-8939-75ca491fd84b",
           "width": 108,
           "x": 911,
           "y": 62,
@@ -3717,6 +4363,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "e8e074b2-e2f9-45a8-b4c6-d1fd3377c031",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -3732,6 +4379,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "f9fabab2-179e-4574-9866-7ea2a2d9db2b",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -3747,6 +4395,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "7e8530bd-6654-4ffb-b1a8-49559749c536",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -3762,6 +4411,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "d764c6af-67d3-496b-9cb7-cd27c33c5c39",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -3777,6 +4427,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "18a707d2-8b12-4bb5-82d3-7a2819bab4f6",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -3792,6 +4443,7 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
+          "persistentUuid": "7a242d89-c238-4a19-b621-99da443cfa94",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -3807,6 +4459,7 @@
           "layer": "",
           "locked": false,
           "name": "Whirly_gigsaw",
+          "persistentUuid": "dae255d0-5b58-4314-a548-a9eb640ca845",
           "width": 0,
           "x": 655,
           "y": 266,
@@ -4830,6 +5483,11 @@
       ],
       "layers": [
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -4847,6 +5505,11 @@
           "effects": []
         },
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "UI",
           "visibility": true,
           "cameras": [],
@@ -4900,6 +5563,7 @@
           "layer": "",
           "locked": false,
           "name": "Wall_texture",
+          "persistentUuid": "2acd21b5-3100-40b6-a317-6dc8d47dab70",
           "width": 895,
           "x": -51,
           "y": -25,
@@ -4915,6 +5579,7 @@
           "layer": "",
           "locked": false,
           "name": "NewObject",
+          "persistentUuid": "9974f7f0-57d8-4ce1-9baf-2020c36a514d",
           "width": 0,
           "x": 150,
           "y": 180,
@@ -4930,6 +5595,7 @@
           "layer": "",
           "locked": false,
           "name": "Go_b",
+          "persistentUuid": "4f248270-98dc-4088-b3a4-8589235d53d8",
           "width": 0,
           "x": 21,
           "y": 568,
@@ -5016,6 +5682,11 @@
       ],
       "layers": [
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
