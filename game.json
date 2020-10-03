@@ -310,6 +310,13 @@
         "name": "Art/Placeholder_assets/Idle-1-6-0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Sound/loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound/loop.ogg",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1355,11 +1362,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlayMusic"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "Sound\\loop.wav",
+                "Sound/loop.ogg",
                 "yes",
                 "",
                 ""
