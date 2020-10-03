@@ -547,6 +547,13 @@
         "name": "Art/Placeholder_assets/IdleLeft-6.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Sound/blood.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound/blood.ogg",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3272,7 +3279,7 @@
               },
               "parameters": [
                 "",
-                "Sound\\PlaceholderSound\\Metal_robot_crash.wav",
+                "Sound/blood.ogg",
                 "",
                 "",
                 ""
@@ -4972,7 +4979,7 @@
               },
               "parameters": [
                 "",
-                "Sound\\PlaceholderSound\\Metal_robot_crash.wav",
+                "Sound/blood.ogg",
                 "",
                 "",
                 ""
@@ -5048,7 +5055,7 @@
               },
               "parameters": [
                 "",
-                "Sound\\PlaceholderSound\\Metal_robot_crash.wav",
+                "Sound/blood.ogg",
                 "",
                 "",
                 ""
