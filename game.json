@@ -317,6 +317,13 @@
         "metadata": "",
         "name": "Sound/loop.ogg",
         "userAdded": false
+      },
+      {
+        "file": "Sound/chomp.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound/chomp.ogg",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1474,6 +1481,20 @@
               },
               "parameters": [
                 "Crab_collectible",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound/chomp.ogg",
+                "",
+                "",
                 ""
               ],
               "subInstructions": []
