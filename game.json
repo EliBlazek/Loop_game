@@ -7,13 +7,14 @@
     "revision": 0
   },
   "properties": {
+    "adMobAppId": "",
     "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
     "linuxExecutableFilename": "",
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "/Users/mikulasholy/Documents/GitHub/Loop_game/game.json",
+    "projectFile": "D:\\Dev\\Loop_game\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -32,7 +33,6 @@
     "loadingScreen": {
       "showGDevelopSplash": true
     },
-    "extensionProperties": [],
     "extensions": [
       {
         "name": "BuiltinObject"
@@ -421,6 +421,24 @@
         "name": "Art/Placeholder_assets/WalkLeft-6.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Mild_saw.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art\\Mild_saw.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Bloody_Saw.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art\\Bloody_Saw.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1257,7 +1275,6 @@
           "layer": "",
           "locked": false,
           "name": "Wall_texture",
-          "persistentUuid": "0dfef78a-a3c1-4036-825d-fbb493fee582",
           "width": 988,
           "x": -87,
           "y": -32,
@@ -1273,7 +1290,6 @@
           "layer": "",
           "locked": false,
           "name": "Game_title",
-          "persistentUuid": "4152ef1e-b1c1-468a-a5fa-b060f48f14f5",
           "width": 0,
           "x": 35,
           "y": 36,
@@ -1289,7 +1305,6 @@
           "layer": "",
           "locked": false,
           "name": "Podnadpis",
-          "persistentUuid": "8db3a395-6fc7-4611-bb30-9b5f184ff046",
           "width": 0,
           "x": 23,
           "y": 109,
@@ -1305,7 +1320,6 @@
           "layer": "",
           "locked": false,
           "name": "Logo",
-          "persistentUuid": "1af61c62-5148-4a76-96c0-81e05549a4f0",
           "width": 0,
           "x": 644,
           "y": 18,
@@ -1321,7 +1335,6 @@
           "layer": "",
           "locked": false,
           "name": "Menu_select",
-          "persistentUuid": "23242e07-1b60-40f4-b773-d3c2647b59e7",
           "width": 0,
           "x": 87,
           "y": 247,
@@ -1519,11 +1532,6 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -1588,7 +1596,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "6ad1c178-f1d8-40b8-bb88-a1e66a88a41b",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1604,7 +1611,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "69543806-8064-4c1a-b8ad-b8b2b8b4da6a",
           "width": 473,
           "x": 151,
           "y": 413,
@@ -1620,7 +1626,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "8b318f4b-1e8f-4613-b5b7-3d43c3e468b8",
           "width": 446,
           "x": 701,
           "y": 413,
@@ -1636,7 +1641,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "5bb22c3c-ab80-430e-bb47-ed1f086586d3",
           "width": 0,
           "x": 941,
           "y": 303,
@@ -1652,7 +1656,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "957bd45e-0d8d-432e-a2f4-edadafad93d4",
           "width": 198,
           "x": 606,
           "y": 221,
@@ -1668,7 +1671,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "8829a95e-2222-46fc-8b81-d9e48062d0bf",
           "width": 262,
           "x": 1087,
           "y": 196,
@@ -1684,7 +1686,6 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
-          "persistentUuid": "594b94cf-c1b5-4c79-93ac-98db69008244",
           "width": 0,
           "x": 1063,
           "y": 371,
@@ -1700,7 +1701,6 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
-          "persistentUuid": "6ce14711-0f83-4691-84f6-823b8b5c2b9e",
           "width": 0,
           "x": 687,
           "y": 179,
@@ -1716,7 +1716,6 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
-          "persistentUuid": "069b838d-624b-4866-9750-7fefd4356daf",
           "width": 0,
           "x": 1175,
           "y": 154,
@@ -1732,7 +1731,6 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
-          "persistentUuid": "ad098794-7557-4db6-a234-94abd8706ef0",
           "width": 0,
           "x": 473,
           "y": 372,
@@ -1748,7 +1746,6 @@
           "layer": "",
           "locked": false,
           "name": "colision_detection",
-          "persistentUuid": "e42f4799-51bf-42fe-b7b3-d024bb6dc9e9",
           "width": 3565,
           "x": -1220,
           "y": 711,
@@ -1764,7 +1761,6 @@
           "layer": "",
           "locked": false,
           "name": "Invis_spawn_flag",
-          "persistentUuid": "54e69a67-71d9-40b8-8d1a-af5ee4d86091",
           "width": 39,
           "x": 191,
           "y": 317,
@@ -1780,7 +1776,6 @@
           "layer": "UI",
           "locked": false,
           "name": "Score_counter",
-          "persistentUuid": "e12b573d-eb85-4449-8d71-0a501b5eb75d",
           "width": 185,
           "x": 10,
           "y": 8,
@@ -1796,7 +1791,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "0d19890d-9cba-4f0e-9e13-e23094e9f6e5",
           "width": 328,
           "x": 1280,
           "y": 480,
@@ -1812,7 +1806,6 @@
           "layer": "",
           "locked": false,
           "name": "Wall_texture",
-          "persistentUuid": "9f5546f6-85e2-4b53-812b-19fa55bfb7d1",
           "width": 4401,
           "x": -1397,
           "y": -988,
@@ -1828,7 +1821,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "8e60d2ec-ba20-4c69-91bd-7556ae939d90",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1844,7 +1836,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "c9988ccb-564c-41d0-a4c7-1aac9806b9cb",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1860,7 +1851,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "fe900946-43e6-40ed-b126-c8448efe0b0e",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1876,7 +1866,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "6b7252eb-1b36-400a-9cf6-7dc8b57314e3",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1892,7 +1881,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "ccb2f1a1-f6eb-4b7b-a3a2-b6b08a1c29eb",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1908,7 +1896,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "b66ede08-ad54-4eee-a826-5408460d94c1",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1924,7 +1911,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "f6cb04c1-da35-4667-83ca-68b504ac2abb",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1940,7 +1926,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "643b7084-264d-4e36-a4fa-340bdb6dfd3f",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1956,7 +1941,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "0a5b762e-7f56-41ff-b706-635b1591fe3e",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1972,7 +1956,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "812190ae-3c8a-459d-b2bf-5151a9174165",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -1988,7 +1971,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "5a63ee95-bff7-482c-acb8-99033800431e",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -2004,7 +1986,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "0f306819-a8e6-4d0e-b560-4d9c243180fc",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -2020,7 +2001,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "6b4b5848-d16b-4d62-b2ac-8462403f4dc9",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -2036,7 +2016,6 @@
           "layer": "",
           "locked": false,
           "name": "Exit_door",
-          "persistentUuid": "4b397bdb-7f9a-4813-b59a-c72fd0c7da70",
           "width": 168,
           "x": 1432,
           "y": 315,
@@ -2052,7 +2031,6 @@
           "layer": "",
           "locked": false,
           "name": "Console",
-          "persistentUuid": "7ee6d809-b8e8-489e-9250-f5f6bb5a0a5a",
           "width": 32,
           "x": 1382,
           "y": 418,
@@ -2068,7 +2046,6 @@
           "layer": "",
           "locked": false,
           "name": "Console_sparks",
-          "persistentUuid": "b9e8fcd1-ec3f-4f48-8b05-36e5a699d2ec",
           "width": 0,
           "x": 1399,
           "y": 429,
@@ -2084,7 +2061,6 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
-          "persistentUuid": "782e3735-661e-4b57-a850-818abcba589f",
           "width": 108,
           "x": 1696,
           "y": 64,
@@ -2100,7 +2076,6 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
-          "persistentUuid": "f1b0ef9f-634f-415f-8757-c9713f26dbe9",
           "width": 108,
           "x": 160,
           "y": 64,
@@ -2116,7 +2091,6 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
-          "persistentUuid": "15231d22-7142-4769-be6f-19d2486c4a97",
           "width": 108,
           "x": 544,
           "y": 64,
@@ -2132,7 +2106,6 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
-          "persistentUuid": "7e5c8403-8b16-4006-b72f-00fa3a5cd7ed",
           "width": 108,
           "x": 911,
           "y": 62,
@@ -2148,7 +2121,6 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
-          "persistentUuid": "cb8ab46d-2e7d-4cfb-8252-0ca61948b588",
           "width": 108,
           "x": 911,
           "y": 62,
@@ -2164,7 +2136,6 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
-          "persistentUuid": "2bf7ae5c-c052-45c0-b5cb-72020207b14d",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -2180,7 +2151,6 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
-          "persistentUuid": "e4eb2bb4-bbc9-4398-a1cc-b298aa24f090",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -2196,7 +2166,6 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
-          "persistentUuid": "d0167938-39a7-4af3-9add-180b8e3df15c",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -2212,7 +2181,6 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
-          "persistentUuid": "7bef858a-6e6b-4a31-aa06-039707c51691",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -2228,7 +2196,6 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
-          "persistentUuid": "29d80a62-3747-4d5e-993f-f8e001f33797",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -2244,7 +2211,6 @@
           "layer": "",
           "locked": false,
           "name": "Trans_vitraz",
-          "persistentUuid": "a04b79bb-8a81-496c-a5a5-3e00011900c2",
           "width": 108,
           "x": 1376,
           "y": 64,
@@ -3141,11 +3107,6 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -3163,11 +3124,6 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
           "name": "UI",
           "visibility": true,
           "cameras": [],
@@ -3209,7 +3165,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.754
+        "zoomFactor": 1.09
       },
       "objectsGroups": [],
       "variables": [],
@@ -3221,7 +3177,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "b187bbbb-0591-40e7-ace4-d467facd7940",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3237,7 +3192,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "e62f79c5-4e36-4ad2-ad7c-deef38035127",
           "width": 473,
           "x": 151,
           "y": 413,
@@ -3253,7 +3207,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "bdf65693-bc71-446e-a711-f893d49fcf73",
           "width": 446,
           "x": 701,
           "y": 413,
@@ -3269,7 +3222,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "0863b758-8342-4dbb-8673-72184815752d",
           "width": 0,
           "x": 941,
           "y": 303,
@@ -3285,7 +3237,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "5c42cee0-9d7d-44ba-a919-2f8257b8689e",
           "width": 198,
           "x": 606,
           "y": 221,
@@ -3301,7 +3252,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "f9925dae-4199-4a4e-9aaf-fef7e9536031",
           "width": 262,
           "x": 1087,
           "y": 196,
@@ -3317,7 +3267,6 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
-          "persistentUuid": "c8ebda30-6eec-4b77-9b84-5eeb2faff70e",
           "width": 0,
           "x": 1063,
           "y": 371,
@@ -3333,7 +3282,6 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
-          "persistentUuid": "ebe64ccc-b3a8-4a1a-8af2-3e9971764183",
           "width": 0,
           "x": 687,
           "y": 179,
@@ -3349,7 +3297,6 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
-          "persistentUuid": "03223b5b-5b5f-4905-b8d7-ab02aa0de87f",
           "width": 0,
           "x": 1175,
           "y": 154,
@@ -3365,7 +3312,6 @@
           "layer": "",
           "locked": false,
           "name": "Crab_collectible",
-          "persistentUuid": "c443f6ad-428c-4d8d-b7c6-bc34911bf4dd",
           "width": 0,
           "x": 473,
           "y": 372,
@@ -3381,7 +3327,6 @@
           "layer": "",
           "locked": false,
           "name": "colision_detection",
-          "persistentUuid": "a1aa94b6-b6ee-47a3-84a4-4743a7caf444",
           "width": 3565,
           "x": -1220,
           "y": 711,
@@ -3397,7 +3342,6 @@
           "layer": "",
           "locked": false,
           "name": "Invis_spawn_flag",
-          "persistentUuid": "43f4bc92-20e1-4dee-9871-078a0dc2e56b",
           "width": 39,
           "x": 191,
           "y": 317,
@@ -3413,7 +3357,6 @@
           "layer": "UI",
           "locked": false,
           "name": "Score_counter",
-          "persistentUuid": "455cc11b-a919-4186-94fd-b22a0dc12241",
           "width": 185,
           "x": 10,
           "y": 8,
@@ -3429,7 +3372,6 @@
           "layer": "",
           "locked": false,
           "name": "Box",
-          "persistentUuid": "d249955b-6401-4a54-bf22-854c097a951f",
           "width": 328,
           "x": 1280,
           "y": 480,
@@ -3445,7 +3387,6 @@
           "layer": "",
           "locked": false,
           "name": "Wall_texture",
-          "persistentUuid": "7dde3a56-95e8-4bf4-b15d-874cb2a560ef",
           "width": 4401,
           "x": -1397,
           "y": -988,
@@ -3461,7 +3402,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "25ac3ec8-3bd8-4e39-92cb-51fd4a687101",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3477,7 +3417,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "0e52cabb-5fbc-4885-8917-af726c0f6871",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3493,7 +3432,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "4331b82c-12a4-45cd-ba29-46e4906d770e",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3509,7 +3447,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "4bb6c7e0-341f-4d74-9239-fec31ec295b2",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3525,7 +3462,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "5c1b13a6-9c6a-4fb8-89d3-168a0ccd07a9",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3541,7 +3477,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "43fa0357-8f17-4e3e-8ba5-372fb5e9d51b",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3557,7 +3492,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "fb779d5c-3d00-4e98-81a3-705f78d217aa",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3573,7 +3507,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "132a54f0-1949-497e-9485-000dd1807bbe",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3589,7 +3522,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "91f081d3-2cd0-4f38-addf-2144701e0b33",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3605,7 +3537,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "5bdef398-ae1c-4e2c-87c3-c6dce4290274",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3621,7 +3552,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "d24f5664-67cf-4afa-a388-dc66fc97f361",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3637,7 +3567,6 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "e4e09e0f-371c-4a3f-ab8e-2c00024e316f",
           "width": 122,
           "x": 170,
           "y": 333,
@@ -3653,11 +3582,10 @@
           "layer": "",
           "locked": false,
           "name": "Player",
-          "persistentUuid": "1f710521-9d31-408b-8f91-9746d52e8800",
           "width": 122,
           "x": 170,
           "y": 333,
-          "zOrder": 1,
+          "zOrder": 200,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3669,7 +3597,6 @@
           "layer": "",
           "locked": false,
           "name": "Exit_door",
-          "persistentUuid": "b0211aa6-2ec1-44fe-9864-b65d62c6b4a1",
           "width": 168,
           "x": 1432,
           "y": 315,
@@ -3680,15 +3607,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 27,
           "layer": "",
           "locked": false,
-          "name": "Crab_collectible",
-          "persistentUuid": "f1460025-e282-4e2a-82f7-fe4a21fd8c11",
-          "width": 0,
-          "x": 364,
-          "y": 248,
+          "name": "Console",
+          "width": 32,
+          "x": 1382,
+          "y": 418,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -3700,12 +3626,191 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Crab_collectible",
-          "persistentUuid": "125a0a60-395d-4878-9a3a-ba06577503ad",
+          "name": "Console_sparks",
           "width": 0,
-          "x": 462,
-          "y": 500,
-          "zOrder": 16,
+          "x": 1399,
+          "y": 429,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Trans_vitraz",
+          "width": 108,
+          "x": 1696,
+          "y": 64,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Trans_vitraz",
+          "width": 108,
+          "x": 160,
+          "y": 64,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Trans_vitraz",
+          "width": 108,
+          "x": 544,
+          "y": 64,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Trans_vitraz",
+          "width": 108,
+          "x": 911,
+          "y": 62,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Trans_vitraz",
+          "width": 108,
+          "x": 911,
+          "y": 62,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Trans_vitraz",
+          "width": 108,
+          "x": 1376,
+          "y": 64,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Trans_vitraz",
+          "width": 108,
+          "x": 1376,
+          "y": 64,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Trans_vitraz",
+          "width": 108,
+          "x": 1376,
+          "y": 64,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Trans_vitraz",
+          "width": 108,
+          "x": 1376,
+          "y": 64,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Trans_vitraz",
+          "width": 108,
+          "x": 1376,
+          "y": 64,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Trans_vitraz",
+          "width": 108,
+          "x": 1376,
+          "y": 64,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Whirly_gigsaw",
+          "width": 0,
+          "x": 655,
+          "y": 266,
+          "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3762,16 +3867,6 @@
           ]
         },
         {
-          "height": 32,
-          "name": "Wall_texture",
-          "tags": "",
-          "texture": "Art\\Wall_texture1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
-        },
-        {
           "name": "Exit_door",
           "tags": "",
           "type": "Sprite",
@@ -3790,6 +3885,180 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Art\\Exit_door.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Console",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Art\\Console.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "additive": true,
+          "alphaParam": "Mutable",
+          "angleParam": "Mutable",
+          "blueParam": "Random",
+          "destroyWhenNoParticles": true,
+          "emissionEditionSimpleMode": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 360,
+          "emitterForceMax": 120,
+          "emitterForceMin": 100,
+          "emitterXDirection": 0,
+          "emitterYDirection": 1,
+          "emitterZDirection": 0,
+          "flow": 15,
+          "friction": -1,
+          "gravityEditionSimpleMode": true,
+          "greenParam": "Random",
+          "maxParticleNb": 100,
+          "name": "Console_sparks",
+          "particleAlpha1": 255,
+          "particleAlpha2": 255,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 35,
+          "particleBlue2": 28,
+          "particleEditionSimpleMode": true,
+          "particleGravityX": 0,
+          "particleGravityY": 50,
+          "particleGravityZ": 0,
+          "particleGreen1": 166,
+          "particleGreen2": 231,
+          "particleLifeTimeMax": 1.5,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 245,
+          "particleRed2": 248,
+          "particleSize1": 100,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "redParam": "Enabled",
+          "rendererParam1": 1.5,
+          "rendererParam2": 1,
+          "rendererType": "Point",
+          "sizeParam": "Mutable",
+          "tags": "",
+          "tank": -1,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 1,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "Trans_vitraz",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Art\\Vitraz_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Whirly_gigsaw",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Art\\Bloody_Saw.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3883,6 +4152,18 @@
                 "Invis_spawn_flag"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -3903,6 +4184,18 @@
                 "Player",
                 "no",
                 "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Whirly_gigsaw",
+                "360",
                 ""
               ],
               "subInstructions": []
@@ -4065,57 +4358,6 @@
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "UI\n",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Score_counter",
-                "=",
-                "\"Score:\" + ToString(GlobalVariable(Score))"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Level ending\n",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4125,891 +4367,7 @@
               },
               "parameters": [
                 "Player",
-                "Exit_door",
-                "",
-                "",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level13\"",
-                "no"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "UI",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
-        }
-      ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Level13",
-      "name": "Level13",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridB": 255,
-        "gridG": 180,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridR": 158,
-        "gridWidth": 32,
-        "snap": false,
-        "windowMask": false,
-        "zoomFactor": 1.834
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "76bc6fac-3589-48a2-bb93-ed8c2ece075f",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "Box",
-          "persistentUuid": "5825310b-a224-494e-8d4b-622ca26e6912",
-          "width": 473,
-          "x": 151,
-          "y": 413,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "Box",
-          "persistentUuid": "82798390-87e8-45a6-8a38-badaa921e159",
-          "width": 446,
-          "x": 701,
-          "y": 413,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Box",
-          "persistentUuid": "d6b1aa87-53ab-4341-ab90-c9a2434ff92f",
-          "width": 0,
-          "x": 941,
-          "y": 303,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "Box",
-          "persistentUuid": "f0d1c8d4-e95f-4aad-99dc-240f2a0489dc",
-          "width": 198,
-          "x": 606,
-          "y": 221,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "Box",
-          "persistentUuid": "a02f3be2-4e3d-43fd-9d15-956e09ae9ad6",
-          "width": 262,
-          "x": 1087,
-          "y": 196,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Crab_collectible",
-          "persistentUuid": "6243d392-e32e-4b4c-9aab-5900a1c1020e",
-          "width": 0,
-          "x": 1063,
-          "y": 371,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Crab_collectible",
-          "persistentUuid": "a869309f-8620-414f-ab87-2c014c19c922",
-          "width": 0,
-          "x": 687,
-          "y": 179,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Crab_collectible",
-          "persistentUuid": "567e8ead-721a-482b-bf55-66314fe25f62",
-          "width": 0,
-          "x": 1175,
-          "y": 154,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Crab_collectible",
-          "persistentUuid": "fa6cf026-ef5c-487f-afdd-91d8b5fed3c5",
-          "width": 0,
-          "x": 473,
-          "y": 372,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "colision_detection",
-          "persistentUuid": "c2e929a4-6bfb-430f-a550-094ecb4bb1b6",
-          "width": 3565,
-          "x": -1220,
-          "y": 711,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 95,
-          "layer": "",
-          "locked": false,
-          "name": "Invis_spawn_flag",
-          "persistentUuid": "ea76b9eb-2032-4cb7-b6e5-752a8c032d80",
-          "width": 39,
-          "x": 191,
-          "y": 317,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 97,
-          "layer": "UI",
-          "locked": false,
-          "name": "Score_counter",
-          "persistentUuid": "28557bfd-1660-47e1-8339-cca0f65fc1a6",
-          "width": 185,
-          "x": 10,
-          "y": 8,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "Box",
-          "persistentUuid": "95979543-37bc-4a11-bcb6-79660ce6565f",
-          "width": 328,
-          "x": 1280,
-          "y": 480,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 2187,
-          "layer": "",
-          "locked": false,
-          "name": "Wall_texture",
-          "persistentUuid": "f31fa011-393d-4092-a288-e41f19c64126",
-          "width": 4401,
-          "x": -1397,
-          "y": -988,
-          "zOrder": -14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "8eca3eca-435e-482a-9acd-b278ce7c9ed1",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "0e5dc82e-3875-49af-bbd6-74b035da8488",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "c1b92043-e5c4-4d38-b949-f09efa052add",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "73f7f4ca-26de-4a97-9171-8e37b1a5bf62",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "dc5d47d9-95af-4229-afe5-dbf98e5e7d48",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "47488008-da0f-44f1-8fdb-4da044c84047",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "473a1dce-3506-4c54-ba6c-12458c8421bb",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "5c10cab8-c60f-4c4c-a821-6b61595f5f98",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "87be175c-1d0e-4d86-9b72-a560d5fbe72a",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "299bbbf4-d38d-4901-8963-4826746b95fc",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "712aee1a-edc5-4c0d-bd45-7d864f2b4881",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "5773c10d-5f0f-43b4-8d19-19982368b800",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "persistentUuid": "973666a2-fbee-4c30-9285-265f469aa871",
-          "width": 122,
-          "x": 170,
-          "y": 333,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 165,
-          "layer": "",
-          "locked": false,
-          "name": "Exit_door",
-          "persistentUuid": "38ea8f9b-ccd5-413b-b70b-a89b668433d6",
-          "width": 168,
-          "x": 1432,
-          "y": 315,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Crab_collectible",
-          "persistentUuid": "f3a57714-3bd7-4c76-92ee-56e6a97ef96c",
-          "width": 0,
-          "x": 364,
-          "y": 248,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Crab_collectible",
-          "persistentUuid": "a686517a-d9d5-4ffc-999d-11ea455e63db",
-          "width": 0,
-          "x": 462,
-          "y": 500,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "height": 32,
-          "name": "colision_detection",
-          "tags": "",
-          "texture": "Art\\Placeholder_assets\\CollisionDetect-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "name": "Invis_spawn_flag",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Art\\Placeholder_assets\\Flag-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "height": 32,
-          "name": "Wall_texture",
-          "tags": "",
-          "texture": "Art\\Wall_texture1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "name": "Exit_door",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Art\\Exit_door.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Game setup",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Sound/loop.ogg",
-                "yes",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "colision_detection"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "Invis_spawn_flag"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Player",
-                "no",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Collision detection\n",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Crab_collectible",
-                "",
-                "",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Score",
-                "+",
-                "10"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "Crab_collectible",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Sound/chomp.ogg",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "colision_detection",
+                "Whirly_gigsaw",
                 "",
                 "",
                 "yes"
@@ -5159,15 +4517,319 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Movement",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "WasJumping",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound/jump.ogg",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "WasJumping",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "WasJumping",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "Direction",
+                "=",
+                "\"right\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "Direction",
+                "=",
+                "\"left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "Direction",
+                "=",
+                "\"right\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "Direction",
+                "=",
+                "\"left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
         {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -5185,11 +4847,6 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
           "name": "UI",
           "visibility": true,
           "cameras": [],
@@ -5243,7 +4900,6 @@
           "layer": "",
           "locked": false,
           "name": "Wall_texture",
-          "persistentUuid": "0e2703f9-2d7c-4742-8895-368677768719",
           "width": 895,
           "x": -51,
           "y": -25,
@@ -5259,7 +4915,6 @@
           "layer": "",
           "locked": false,
           "name": "NewObject",
-          "persistentUuid": "558f94f4-017b-4dae-b201-b63f76b27399",
           "width": 0,
           "x": 150,
           "y": 180,
@@ -5275,7 +4930,6 @@
           "layer": "",
           "locked": false,
           "name": "Go_b",
-          "persistentUuid": "e22e67d0-a44a-458e-ba8a-d7287c041e09",
           "width": 0,
           "x": 21,
           "y": 568,
@@ -5362,11 +5016,6 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
