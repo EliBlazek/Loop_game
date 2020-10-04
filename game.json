@@ -9450,7 +9450,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.612
+        "zoomFactor": 0.852
       },
       "objectsGroups": [
         {
@@ -10780,8 +10780,8 @@
           "locked": false,
           "name": "Enemy_left",
           "width": 0,
-          "x": 2819,
-          "y": 240,
+          "x": 2894,
+          "y": 245,
           "zOrder": 250,
           "numberProperties": [],
           "stringProperties": [],
@@ -10795,8 +10795,8 @@
           "locked": false,
           "name": "Enemy_right",
           "width": 0,
-          "x": 2530,
-          "y": 236,
+          "x": 2469,
+          "y": 237,
           "zOrder": 251,
           "numberProperties": [],
           "stringProperties": [],
@@ -10840,8 +10840,8 @@
           "locked": false,
           "name": "Enemy_left",
           "width": 0,
-          "x": 6403,
-          "y": 10,
+          "x": 6374,
+          "y": 18,
           "zOrder": 254,
           "numberProperties": [],
           "stringProperties": [],
@@ -10855,7 +10855,7 @@
           "locked": false,
           "name": "Enemy_right",
           "width": 0,
-          "x": 6219,
+          "x": 6151,
           "y": 13,
           "zOrder": 255,
           "numberProperties": [],
@@ -10903,6 +10903,126 @@
           "x": 302,
           "y": 90,
           "zOrder": 257,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Whirly_gigsaw",
+          "width": 0,
+          "x": 2944,
+          "y": 255,
+          "zOrder": 258,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Whirly_gigsaw",
+          "width": 0,
+          "x": 4150,
+          "y": 294,
+          "zOrder": 259,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Whirly_gigsaw",
+          "width": 0,
+          "x": 5250,
+          "y": -290,
+          "zOrder": 260,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy_crab",
+          "width": 0,
+          "x": 3306,
+          "y": 246,
+          "zOrder": 265,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy_left",
+          "width": 0,
+          "x": 3504,
+          "y": 243,
+          "zOrder": 266,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy_right",
+          "width": 0,
+          "x": 3029,
+          "y": 239,
+          "zOrder": 267,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Box",
+          "width": 0,
+          "x": 5384,
+          "y": -189,
+          "zOrder": 268,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Crab_collectible",
+          "width": 0,
+          "x": 5380,
+          "y": -230,
+          "zOrder": 269,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11881,6 +12001,88 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Whirly_gigsaw",
+                "",
+                "",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "-",
+                "10"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound/blood.ogg",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "death",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
           "events": []
@@ -11964,7 +12166,7 @@
               },
               "parameters": [
                 "",
-                "\"Level12\"",
+                "\"New scene\"",
                 "no"
               ],
               "subInstructions": []
@@ -13152,7 +13354,7 @@
               "parameters": [
                 "Num_deaths_eval",
                 "=",
-                "\"And you´ve died \"+ToString(GlobalVariable(Score)) + \" times\""
+                "\"And you´ve died \"+ToString(GlobalVariable(Num_deaths)) + \" times\""
               ],
               "subInstructions": []
             }
