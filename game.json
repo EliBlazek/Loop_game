@@ -860,6 +860,33 @@
         "name": "Art/Placeholder_assets/EnemyMove-8.png.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/Left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Placeholder_assets/Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art/Placeholder_assets/Right.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2616,6 +2643,84 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Enemy_left",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject-1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Art/Placeholder_assets/Left.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enemy_right",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject-1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Art/Placeholder_assets/Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -2993,7 +3098,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.154
+        "zoomFactor": 0.54
       },
       "objectsGroups": [
         {
@@ -4238,6 +4343,54 @@
           "x": 5932,
           "y": -41,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy_crab",
+          "persistentUuid": "121e429f-dc3e-4138-b7e4-f35bac819538",
+          "width": 0,
+          "x": 809,
+          "y": 371,
+          "zOrder": 241,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy_right",
+          "persistentUuid": "44bb8232-8fda-4468-a08d-3f38a7ed707a",
+          "width": 0,
+          "x": 662,
+          "y": 350,
+          "zOrder": 242,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy_left",
+          "persistentUuid": "23831155-f90a-4ce3-8153-dc5b8e471192",
+          "width": 0,
+          "x": 1117,
+          "y": 349,
+          "zOrder": 243,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
