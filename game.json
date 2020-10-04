@@ -3352,7 +3352,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.492
+        "zoomFactor": 0.42
       },
       "objectsGroups": [
         {
@@ -7514,7 +7514,7 @@
           "locked": false,
           "name": "Enemy_left",
           "width": 0,
-          "x": 2819,
+          "x": 2930,
           "y": 240,
           "zOrder": 250,
           "numberProperties": [],
@@ -7529,8 +7529,8 @@
           "locked": false,
           "name": "Enemy_right",
           "width": 0,
-          "x": 2530,
-          "y": 236,
+          "x": 2444,
+          "y": 237,
           "zOrder": 251,
           "numberProperties": [],
           "stringProperties": [],
@@ -7574,8 +7574,8 @@
           "locked": false,
           "name": "Enemy_left",
           "width": 0,
-          "x": 6403,
-          "y": 10,
+          "x": 6369,
+          "y": 11,
           "zOrder": 254,
           "numberProperties": [],
           "stringProperties": [],
@@ -7589,8 +7589,8 @@
           "locked": false,
           "name": "Enemy_right",
           "width": 0,
-          "x": 6219,
-          "y": 13,
+          "x": 6174,
+          "y": 16,
           "zOrder": 255,
           "numberProperties": [],
           "stringProperties": [],
@@ -9450,7 +9450,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.852
+        "zoomFactor": 0.66
       },
       "objectsGroups": [
         {
