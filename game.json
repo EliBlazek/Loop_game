@@ -11760,7 +11760,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.904
+        "zoomFactor": 0.424
       },
       "objectsGroups": [],
       "variables": [],
@@ -11768,13 +11768,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 650,
+          "height": 1668,
           "layer": "",
           "locked": false,
           "name": "Wall_texture",
-          "width": 895,
-          "x": -51,
-          "y": -25,
+          "width": 2688,
+          "x": -718,
+          "y": -381,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
