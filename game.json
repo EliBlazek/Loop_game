@@ -689,6 +689,15 @@
         "name": "Art\\Placeholder_assets\\Idlecrabtime-10.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Art/Torch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art\\Torch.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -720,10 +729,10 @@
       "variables": [],
       "behaviors": [
         {
-          "gravity": 800,
-          "jumpSustainTime": 0,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 800,
+          "jumpSustainTime": 0,
           "canGrabPlatforms": true,
           "acceleration": 1500,
           "deceleration": 1500,
@@ -2609,7 +2618,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -2617,11 +2626,23 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.178
+        "zoomFactor": 0.802
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Torch_and_flame",
+          "objects": [
+            {
+              "name": "Torch"
+            },
+            {
+              "name": "Flame"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -2691,7 +2712,7 @@
           "layer": "",
           "locked": false,
           "name": "colision_detection",
-          "width": 8992,
+          "width": 10235,
           "x": -1220,
           "y": 711,
           "zOrder": 11,
@@ -2947,8 +2968,8 @@
           "locked": false,
           "name": "Console",
           "width": 34,
-          "x": 768,
-          "y": 352,
+          "x": 6757,
+          "y": 101,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -2962,8 +2983,8 @@
           "locked": false,
           "name": "Console_sparks",
           "width": 0,
-          "x": 781,
-          "y": 371,
+          "x": 6775,
+          "y": 117,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3658,6 +3679,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Box",
+          "width": 64,
+          "x": 5920,
+          "y": 0,
+          "zOrder": 240,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3883,6 +3919,102 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Torch",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Art\\Torch.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "additive": false,
+          "alphaParam": "Mutable",
+          "angleParam": "Mutable",
+          "blueParam": "Random",
+          "destroyWhenNoParticles": true,
+          "emissionEditionSimpleMode": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 30,
+          "emitterForceMax": 45,
+          "emitterForceMin": 15,
+          "emitterXDirection": 0,
+          "emitterYDirection": 1,
+          "emitterZDirection": 0,
+          "flow": 45,
+          "friction": 2,
+          "gravityEditionSimpleMode": true,
+          "greenParam": "Random",
+          "maxParticleNb": 300,
+          "name": "Flame",
+          "particleAlpha1": 200,
+          "particleAlpha2": 50,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 27,
+          "particleBlue2": 12,
+          "particleEditionSimpleMode": true,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGravityZ": 0,
+          "particleGreen1": 2,
+          "particleGreen2": 153,
+          "particleLifeTimeMax": 1,
+          "particleLifeTimeMin": 0.3,
+          "particleRed1": 208,
+          "particleRed2": 238,
+          "particleSize1": 100,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "redParam": "Enabled",
+          "rendererParam1": 3,
+          "rendererParam2": 1,
+          "rendererType": "Point",
+          "sizeParam": "Mutable",
+          "tags": "",
+          "tank": -1,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
