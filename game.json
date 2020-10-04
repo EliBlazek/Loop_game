@@ -2782,7 +2782,7 @@
           "customSize": true,
           "height": 1380,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "Wall_texture",
           "width": 2144,
           "x": -597,
@@ -2956,7 +2956,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Press X to start \n\nPress C to see credits",
+          "string": "Press Space to start \n\nPress C to see credits",
           "font": "VT323_font.ttf",
           "characterSize": 35,
           "color": {
@@ -2995,7 +2995,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Controls: directional arrows for movement,\nX to jump",
+          "string": "Controls: directional arrows for movement,\nSpace to jump",
           "font": "VT323_font.ttf",
           "characterSize": 40,
           "color": {
