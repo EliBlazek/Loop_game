@@ -4482,8 +4482,8 @@
           "name": "Enemy_right",
           "persistentUuid": "d60b550a-6b86-48a9-be2f-fc532e1ccb3c",
           "width": 0,
-          "x": 662,
-          "y": 350,
+          "x": 646,
+          "y": 349,
           "zOrder": 242,
           "numberProperties": [],
           "stringProperties": [],
@@ -4498,7 +4498,7 @@
           "name": "Enemy_left",
           "persistentUuid": "2dbc12ed-241b-41af-a5ef-dc1d0954d959",
           "width": 0,
-          "x": 1117,
+          "x": 1137,
           "y": 349,
           "zOrder": 243,
           "numberProperties": [],
@@ -5700,7 +5700,7 @@
               },
               "parameters": [
                 "Enemy_crab",
-                "-60",
+                "-100",
                 "0",
                 ""
               ],
@@ -5736,7 +5736,7 @@
               },
               "parameters": [
                 "Enemy_crab",
-                "60",
+                "100",
                 "0",
                 ""
               ],
