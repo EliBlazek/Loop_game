@@ -86,6 +86,13 @@
 	<script src="code4.js" crossorigin="anonymous"></script>
 	<script src="code5.js" crossorigin="anonymous"></script>
 	<script src="data.js" crossorigin="anonymous"></script>
+	<script>
+		window.addEventListener("keydown", function(e) {
+		 if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+		 e.preventDefault();
+		 }
+		}, false);
+	</script>
 
 
 </head>
